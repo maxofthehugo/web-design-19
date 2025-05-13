@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  overscroll-behavior: none;
+  font-family: Rubik;
+}
+.bgVideo {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.65;
+}
+.banner {
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  filter: drop-shadow(0 0 10px #000);
+}
+.banner .left {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  padding: 0 0 0 10px;
+}
+.banner .center {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.banner .center a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.banner .right {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 0;
+}
+.icon {
+  width: 64px;
+  padding: 5px;
+}
+.right .link .icon {
+  width: 32px;
+}
+.left .link .icon {
+  width: 46px;
+}
